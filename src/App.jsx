@@ -5,7 +5,10 @@ import Home from './components/home';
 import Header from './components/header';
 
 //CSS
-import './styles/app.scss';
+import './styles/App.scss';
+import './styles/Header.scss';
+import './styles/Hero.scss';
+
 
 
 

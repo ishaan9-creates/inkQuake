@@ -1,0 +1,60 @@
+.hero_coint {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 30;
+  margin: 33px 0px 5px 0px;
+
+	
+
+	p {
+		width: 40%;
+    font-weight: 600;
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 0px 0px;
+    margin: 0px auto;
+    justify-content: center;
+
+		span {
+			color: #942CFD;
+		}
+	}
+
+}
+
+.one_stop {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-top: 0px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 33px;
+
+  input {
+    margin: 0px 25px;
+    flex-shrink: 30;
+    width: 864px;
+    height: 70px;
+    border: 1px solid rgba(149, 44, 253, 0.43);
+    box-shadow: 0px 4px 36px rgba(143, 0, 255, 0.09);
+    border-radius: 15px;
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    padding: 0px 25px;
+  }
+
+	input::placeholder {
+    color: rgba(163, 148, 255, 0.53);
+  }
+}
+
+
