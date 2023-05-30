@@ -1,23 +1,22 @@
-import React from 'react'
 
-const header = () => {
+import React from 'react';
+
+import './styles/Header.scss';
+
+const Header = () => {
   return (
     <div>
       <nav>
-				<ul>
-					<li>
-						NEwsletter Hub
-					</li>
-					<li>
-						Blog
-					</li>
-					<li>
-						<button className='cta'>Submit</button>
-					</li>
-				</ul>
-			</nav>
+        <ul className='nav_list'>
+          <li className='logo'>Newsletter Hub</li>
+          <li className='blog'>Blog</li>
+          <li className='submit'>
+            <button className="cta">Submit</button>
+          </li>
+        </ul>
+      </nav>
     </div>
-  )
-}
+  );
+};
 
-export default header
+export default Header;
