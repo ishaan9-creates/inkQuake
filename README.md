@@ -1,4 +1,4 @@
-## Running React on Repl.it
+## About this Project
 
 [React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
 
